@@ -1,7 +1,7 @@
 import {useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo} from "../Redux/action";
-
+import {GoPlus} from "react-icons/go"
 const Todos = () => {
   const [todo, setTodo] = useState("");
   const dispatch=useDispatch()
@@ -24,7 +24,7 @@ const add=()=>{
         className="todo-input"
         value={todo}
       />
-      <button className="add-btn" onClick={()=>add()}>Add</button>
+      <button className="add-btn" onClick={()=>add()}><GoPlus/></button>
       <br />
     </div>
   );
