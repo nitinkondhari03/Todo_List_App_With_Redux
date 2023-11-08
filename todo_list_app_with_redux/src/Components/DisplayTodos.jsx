@@ -5,17 +5,20 @@ const DisplayTodo=()=>{
       const [sort,setsort]=useState("active")
      const todos=useSelector((store)=>store.todos)
       return(
-            <div className="displaytodos">
-                  <div className='buttons'>
-                        <button onClick={()=>setsort("active")} className="buttons">
+            <div>
+             <div className='buttons'>
+                        <button onClick={()=>setsort("active")} >
                               Active
                         </button>
-                        <button onClick={()=>setsort("completed")} className="buttons">
+                        <button onClick={()=>setsort("completed")} >
                               Comleted
                         </button>
-                        <button onClick={()=>setsort("all")} className="buttons">
+                        <button onClick={()=>setsort("all")} >
                               All
                         </button>
+                        </div>
+            <div className="displaytodos">
+                 
 {
       <ul>
             {

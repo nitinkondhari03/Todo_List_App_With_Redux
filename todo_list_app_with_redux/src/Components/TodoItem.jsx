@@ -1,7 +1,9 @@
 import { useRef } from "react"
 import { useDispatch } from "react-redux"
 import { removeTodos,updateTodos,completeTodos} from "../Redux/action"
-
+import {AiFillEdit} from "react-icons/ai"
+import {IoCheckmarkCircleSharp} from "react-icons/io5"
+import {IoClose} from "react-icons/io5"
 const TodoItem=(props)=>{
   const dispatch=useDispatch()
 const {item}=props
@@ -20,15 +22,15 @@ const changeFocus=()=>{
       return(
             <>
             <li key={item.id} className="card">
-              <textarea ref={inputRef} disabled={inputRef} defaultValue={item.item}
+              <input ref={inputRef} disabled={inputRef} defaultValue={item.item}
               onKeyDown={(e)=>update(item.id,inputRef.current.value,e)}
               />
              <div className="btns">
-             <button onClick={()=>changeFocus()}>Edit</button>
+             <button onClick={()=>changeFocus()}><AiFillEdit/></button>
               {item.completed==false && [
-                <button style={{color:"green"}} onClick={()=>dispatch(completeTodos(item.id))}>completed</button>
+                <button style={{color:"green"}} onClick={()=>dispatch(completeTodos(item.id))}><IoCheckmarkCircleSharp/></button>
               ]}
-              <button style={{color:"red"}} onClick={()=>dispatch(removeTodos(item.id))}>delete</button>
+              <button style={{color:"red"}} onClick={()=>dispatch(removeTodos(item.id))}><IoClose/></button>
              </div>
              {item.completed && <span className="completed">done</span>}
             </li>
