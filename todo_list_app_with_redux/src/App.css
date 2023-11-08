@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
-
+/* CSS For ALL Files*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,11 +64,11 @@ body {
 .add-btn:focus {
   outline: none;
 }
-.displaytodos {
+.displaytodos{
   margin-top: 3rem;
   display: flex;
 }
-.buttons {
+.buttons{
   display: flex;
   width: 40vw;
   margin: auto;
