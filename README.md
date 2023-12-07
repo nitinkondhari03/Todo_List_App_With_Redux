@@ -10,16 +10,19 @@ Frontend Deployment
 https://vercel.com
 ```
 
+## Features
+
+ - Add Todo
+ 
+ - Todo Active
+ 
+ - Todo Completed
+ 
+ - Todo All
+
 ## Pages
 
 - Todo Page
-
-## Features
-
- -Add Todo
- -Todo Active
- -Todo Completed
- -Todo All
 
 ## ScreenShots
 
