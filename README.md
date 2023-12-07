@@ -12,7 +12,7 @@ https://vercel.com
 
 ## Pages
 
--   Home Page
+-   Todo Page
 
 
 ## Features
