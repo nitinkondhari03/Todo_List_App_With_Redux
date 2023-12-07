@@ -12,10 +12,14 @@ https://vercel.com
 
 ## Pages
 
--   Todo Page
-
+- Todo Page
 
 ## Features
+
+ -Add Todo
+ -Todo Active
+ -Todo Completed
+ -Todo All
 
 ## ScreenShots
 
