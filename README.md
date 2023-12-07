@@ -1,7 +1,7 @@
 # Todo_List_App_With_Redux
 
 ## Tech Stack
- React | Redux CSS 
+ React | Redux | CSS | React-Icons
 
 ## Deployment
 
