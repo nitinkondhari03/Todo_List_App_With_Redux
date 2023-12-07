@@ -19,8 +19,11 @@ https://vercel.com
 
 ## ScreenShots
 
-### 1. Homepage
-![HomePage](https://github.com/nitinkondhari03/ECOMMERCE/assets/107460712/c4db0240-482c-45d0-bad9-97f3f8fdbd3a)
+### Todo Laptop View
+![Todo Laptop view](https://github.com/nitinkondhari03/Todo_List_App_With_Redux/assets/107460712/f39b65d2-2c5e-4e8b-80ad-bc2999ec4171)
+
+### Todo Mobile View
+![Todo Mobile view](https://github.com/nitinkondhari03/Todo_List_App_With_Redux/assets/107460712/98b6058e-15a6-4bc2-a1d5-9cc9aadabf0e)
 
 
 
