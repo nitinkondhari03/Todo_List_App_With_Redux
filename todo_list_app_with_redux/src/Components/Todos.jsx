@@ -9,11 +9,15 @@ const Todos = () => {
     setTodo(e.target.value);
   };
 const add=()=>{
+  if(!todo){
+    alert("Task Is Empty")
+  }else{
       dispatch(addTodo({
     id:Math.floor(Math.random()*1000),
     item:todo,
     completed:false,
   }))
+}
   setTodo("");
 }
   return (

@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(190deg, #867bcd 0%, #6a5aab 100%);
+  background: linear-gradient(190deg, #7bcccd 0%, #396c48 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ body {
   text-align: center;
   margin-bottom: 2rem;
   color: #ecebfd;
-  text-shadow: 0 0 5px #433aa8, 3px -1px 5px #271c6c;
+  text-shadow: 0 0 5px #407273, 3px -1px 5px #18301f ;
 }
 .addTodos {
   display: flex;
@@ -48,7 +48,7 @@ body {
 }
 .add-btn {
   margin-left: 1rem;
-  background-color: #271c6c;
+  background-color: #000000;
   color: #ecebfd;
   border-radius: 50%;
   border: 2px solid #ecebfd;
@@ -56,7 +56,7 @@ body {
   width: 3.2rem;
   height: 3.2rem;
   cursor: pointer;
-  box-shadow: 2px 4px 10px #271c6c;
+  box-shadow: 2px 4px 10px #000000;
   display: flex;
   justify-content: center;
   align-items: center;
